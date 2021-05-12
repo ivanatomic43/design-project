@@ -1,0 +1,67 @@
+
+$backgroundpic:"/assets/920.png";
+div{
+    
+   
+    background: url($backgroundpic) 0% 0% no-repeat padding-box;
+    background-size: cover;
+}
+.custom-div{
+   
+    opacity: 1;
+   
+   padding: 150px;
+   
+  
+    
+
+}
+.btndiv{
+    border: 1px solid #483224;
+    
+    
+    
+}
+.custom-text-1{
+  
+    text-align: left;
+    font: normal normal normal 50px/60px Cookie;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+   
+    
+    
+}
+.custom-text-2{
+    
+    text-align: left;
+    font: normal normal normal 70px/80px Prata;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    max-width:552px ;
+}
+button{
+   display: flex;
+    
+    background-color: #483224;
+    opacity: 1;
+    border-radius: 10px 0px 10px 0px;
+    font-family: Barlow;
+    color: #D1C1A5;
+    text-align: center;
+    
+    
+}
+$flower1: "/assets/cvet1.png";
+.custom-div2{
+    position: absolute;
+    transform: matrix(0.91, -0.41, 0.41, 0.91, 0, 0);
+    background: transparent url($flower1) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    filter: blur(5px);
+    padding: 70px;
+    
+    
+}
