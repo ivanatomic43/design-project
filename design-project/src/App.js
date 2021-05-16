@@ -9,22 +9,15 @@ import Sadona from './component/Sadona';
 
 
 
+
 function App() {
   return (
-   
-    <div className="App">
-      
-      <Header/>
-      
-      <Home/>
-      
-      <Reopening/>
-      <Sadona/>
-      
-      <Footer/>
-      </div>
-      
-   
+   <div>
+    <Header/>
+    <Home/>
+    <Reopening/>
+    </div>
+    
   );
 }
 

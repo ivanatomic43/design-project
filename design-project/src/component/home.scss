@@ -1,26 +1,77 @@
 
+ 
 $backgroundpic:"/assets/920.png";
+$arrow-back: "/assets/arrowback.png";
 
 .custom-div{
    
     opacity: 1;
-   
-   padding: 150px;
-   background: url($backgroundpic) 0% 0% no-repeat padding-box;
+    background: url($backgroundpic) 0% 0% no-repeat padding-box;
     background-size: cover;
-  
-    
+   
 
 }
+.my-container{
+    max-width: 1134px;
+   
+    margin:auto;
+    position: relative;
+    
+    
+}
+.home-div{
+    display: block;
+    padding: 150px 0px;
+    width: 100%;
+    text-align: left;
+   
+    
+   
+    
+}
+.bar-div{
+    
+    justify-content: center;
+    text-align: center;
+    padding: 140px ;
+    
+    
+
+    .first-circle{
+
+        border: 1px solid;
+        border-radius: 100%;
+        color: white;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        transition-delay: 0.3s;
+        transition-timing-function: ease-out;
+
+        &:hover{
+             background-color: #D1C1A5;
+        }
+
+
+    }
+
+    .line-one{
+        display: inline-block;
+        background-color: #FFFFFF;
+        opacity: 0.4;
+        width: 50px;
+        height: 3px;
+    }
+
+   
+}
 .btndiv{
-    border: 1px solid #483224;
-    
-    
+    border: 1px solid #483224;  
     
 }
 .custom-text-1{
   
-    text-align: left;
+   text-align: left;
     font: normal normal normal 50px/60px Cookie;
     letter-spacing: 0px;
     color: #FFFFFF;
@@ -61,6 +112,7 @@ button:hover{
 }
 $flower1: "/assets/cvet1.png";
 .custom-div2{
+    
     position: absolute;
     transform: matrix(0.91, -0.41, 0.41, 0.91, 0, 0);
     background: transparent url($flower1) 0% 0% no-repeat padding-box;

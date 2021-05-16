@@ -7,8 +7,11 @@ class Header extends Component {
     render(){
         return(
             <header>
+               
               <nav>
-                
+              <div className="container">
+                    <div className="nav-container">
+                  
                   <ul>
                             <li className="active"><a href="#">Home</a></li>
                             <li><a href="#">Our Store</a></li>
@@ -19,8 +22,12 @@ class Header extends Component {
                             <li><a href="#">News</a></li>
                             <li><a href="#">Contact</a></li>
                     </ul>
-                    
+                   
+                    </div>
+                    </div>   
                 </nav>
+               
+               
             </header>
         );
     }
