@@ -10,12 +10,14 @@ import Sadona from './component/Sadona';
 
 
 
+
 function App() {
   return (
    <div>
     <Header/>
     <Home/>
     <Reopening/>
+    
     </div>
     
   );

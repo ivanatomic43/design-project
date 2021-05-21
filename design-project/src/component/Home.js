@@ -10,29 +10,39 @@ class Home extends Component{
             <section>
                 
                 <div className="custom-div">
+                
                     <div className="my-container">
-                     
-                     <div className="home-div">
-                         <p className="custom-text-1">A new type of salon.</p>
-                         <p className="custom-text-2">A New Type Of Experience</p>
-                         
-                         <div className="borderdiv1">
-                         <button>Contact</button>
-                         </div>
-
+                    
+                        <div className="flower-one">
+                            <img src="images/cvet1.png" alt=""/>
+                        </div>
                         
 
+                     <div className="home-div">
+                     
+                         <p className="custom-text-1">A new type of salon.</p>
+                         
+                         <p className="custom-text-2">A New Type Of Experience</p>
+                         
+                         <div className="border-div">
+                             <div className="inside-border-div">
+                                 <li className="button-link"><a>Contact</a></li>
+                             </div>
+                             
+                                
+                            
+                         </div>
+
+                        <div className="bar-div">
+                            <div className="first-circle">
+                                <img src="images/arrowback.png"/>
+                            </div>
+
+                        </div>
+
                      </div>
 
-                     <div className="bar-div">
-                         <div className="first-circle">
-                             <img src="images/arrowback.png" id="arrowback"/>
-                         </div>
-                         <div className="line-one">
-
-                         </div>
-
-                     </div>
+                     
 
                      </div>
   

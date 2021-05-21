@@ -6,29 +6,48 @@ class Reopening extends Component{
 
     render(){
         return(
-            <section>
+        <section>
                 
-                 <div className="divcustom">
-                                
-                    <div class="divcustom2" >
+            <div className="divcustom">
+            
+            
 
+                 <div className="container">
+                         
+                 <div className="custom-leaf-two">
+                    <img src="images/3.png"/>
+                 </div>
+
+                    <div class="divcustom2" >
+                   
            
                             <text>We are Reopening</text>
                             <p className="textcustom">Check out details about new safety guidelines</p>
-                            <div className="borderdiv">
-                                <button>Safety Guidelines</button>
+                            <div className= "border-div">
+                            <div className="inside-border-div">
+                               <li className="button-link"><a href="">Safety Guidelines</a></li> 
+                            </div>
                             </div>
 
-                            <div className="flower-div"></div>
+                            
                 
                     </div>
 
                     
+                    <div className="flower-div">
+                                <img src="images/cvet1.png"/>
+                    </div>
+                    <div className="custom-leaf-one">
+                         <img src="images/2.png"/>
+                    </div>
+                    
+                    
+                    
                 </div>
 
-                
+                </div>
             
-            </section>
+        </section>
             
         );
     }

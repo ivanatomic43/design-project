@@ -1,17 +1,25 @@
 .divcustom{
     
     background-color: #D1C1A1;
-    justify-content: center;
     
+    
+    .container{
+
+            justify-content: center;
+            
+            text-align: center;
     .divcustom2{
 
             display: inline-block;
             padding: 30px;
+            justify-content: center;
+            
+            
     
     
 
     text{
-        text-align: center;
+        text-align: center ;
         font-family: Prata;
         letter-spacing:0 px;
         color: #FFFFFF;
@@ -32,39 +40,84 @@
         opacity: 1;
         line-height:26px ;
         font-size: 16px;
+        margin-top: 15px;
         
         
     }
 
-    .borderdiv{
-        border: 1px solid #803E38;
+    .border-div{
+        border: 1px solid #483224;
         display: inline-block;
+        
+        
+
+        .inside-border-div{
+        background-color: #483224;
+        border-radius:  20px 0 20px 0px;
+        transition: border-radius 0;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-out;
+        
+
+            .button-link{
+                text-align: center;
+                display: inline-block;
+                 a{
+                     font: normal normal normal 16px/26px Barlow;
+                    text-decoration: none;
+                    letter-spacing: 0px;
+                    opacity: 1;
+                    color: #FFFFFF;
+                    padding: 25px 15px;
+                    
+                    
+                    }
+            }          
+       
+
+        }
+
+        &:hover{
+            border-color: #803E38;
+
+            .inside-border-div{
+            background-color: #803E38;
+            border-radius: 0;
+            }
+        }
+    }
+
     }
 
     }
 }
 
-$leaf1: "/assets/3.png";
-.custom-leaf1{
-    display: inline-block;
-    position: absolute;
-    transform: matrix(-0.54, -0.84, 0.84, -0.54, 0, 0);
-    background: transparent url($leaf1) 0% 0% no-repeat padding-box;
-    opacity: 1;
-    filter: blur(5px);
-    padding: 50px;
-   
- 
-}
-$flow1: "/assets/cvet1.png";
+
 .flower-div{
     display: inline-block;
     position: absolute;
-    transform: matrix(0.91, -0.41, 0.41, 0.91, 0, 0);
-    background: transparent url($flow1) 0% 0% no-repeat padding-box;
     opacity: 1;
     filter: blur(5px);
-    padding: 50px;
+    padding-top: 90px;
+    background: transparent 0% 0% no-repeat padding-box;
+    
+}
+.custom-leaf-one{
+    display: inline-block;
+    padding: 20px 100px;
+    position: absolute;
+    opacity: 1;
+    filter: blur(5px);
+    background: transparent 0% 0% no-repeat padding-box;
+}
+.custom-leaf-two{
+    display: block;
+    position: absolute;
+    padding: 20px 195px;
+    
+    opacity: 1;
+    filter: blur(5px);
+    background: transparent 0% 0% no-repeat padding-box;
 
    
 }
